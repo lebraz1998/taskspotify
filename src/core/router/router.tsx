@@ -18,7 +18,7 @@ export function FirstRoute() {
 
           <Route path="/user**" component={UserRoute} />
           <Route path="/logged**" component={Logged} />
-          <Redirect from="*" to="/home" />
+          <Redirect from="*" to="/login" />
         </Switch>
       </Router>
     </div>
